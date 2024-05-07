@@ -4,17 +4,9 @@ import React from "react";
 import { IoSearchSharp } from "react-icons/io5";
 const germany = "./germany.png";
 
-export const getAll = async () => {
-  const res = await fetch("https://restcountries.com/v3.1/all");
-  const data = await res.json();
-  console.log(data);
-
-  return data;
-};
 
 const Contries = async () => {
-  const datas = await getAll();
-  console.log(datas);
+ 
 
   return (
     <div>
