@@ -29,7 +29,7 @@ const DetailsPage = async ({
 }) => {
   const data = await getCountry(params.id);
   return (
-    <div className="flex container flex-col mt-4  justify-center">
+    <div className="flex container flex-col mt-[100px]  justify-center">
       <div className="flex">
         <Link
           href="/contries"
