@@ -8,15 +8,11 @@ const config: Config = {
   ],
   theme: {
     container: {
-      padding: {
-        DEFAULT: "1rem",
-        sm: "4rem",
-        lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
-      },
+      center: true,
+      padding: "2rem",
     },
     extend: {
+      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -25,5 +21,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
 export default config;
